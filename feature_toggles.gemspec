@@ -9,9 +9,10 @@ Gem::Specification.new do |s|
   s.version     = FeatureToggles::VERSION
   s.authors     = ["Louis Sayers"]
   s.email       = ["lssayers@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{Turn features on or off in various rails environments}
+  s.homepage    = "https://github.com/forward-labs/feature-toggles"
+  s.summary     = %q{Feature Toggles for Rails}
   s.description = %q{Turn features on or off in various rails environments}
+  s.license = 'MIT'
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["spec/dummy/spec/**/*"]
