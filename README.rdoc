@@ -23,4 +23,5 @@ This gem is made to be used in Rails projects.
   if FeatureToggles::Feature.is_enabled?(:my_cool_feature)
      render 'my_new_feature' and return
   end
-5. Don't forget to delete your toggles if they're no longer needed ;)
+
+And don't forget to delete your toggles if they're no longer needed ;)
