@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    feature_toggles (0.0.1)
+    feature-toggles (0.0.1)
       rails (~> 4.0.0)
 
 GEM
@@ -105,7 +105,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  feature_toggles!
+  feature-toggles!
   pry
   pry-nav
   rspec-rails
