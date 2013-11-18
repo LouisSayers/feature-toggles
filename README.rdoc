@@ -1,0 +1,26 @@
+= FeatureToggles
+
+Toggle a feature on or off in an environment.
+
+This gem is made to be used in Rails projects.
+
+1. In your config folder place a file named "feature_toggles.yml"
+2. Set features for various environments like so:
+  development:
+      my_cool_feature:
+        enabled: true
+
+      another_feature:
+        enabled: true
+  test:
+    my_cool_feature:
+      enabled: false
+
+    another_feature:
+      enabled: true
+3. require 'feature_toggles' #in application.rb
+4. Test if a feature is enabled like the following:
+  if FeatureToggles::Feature.is_enabled?(:my_cool_feature)
+     render 'my_new_feature' and return
+  end
+5. Don't forget to delete your toggles if they're no longer needed ;)

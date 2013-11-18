@@ -1,0 +1,6 @@
+test:
+  my_cool_feature:
+    enabled: false
+
+  another_feature:
+    enabled: true

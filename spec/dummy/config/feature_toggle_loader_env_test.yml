@@ -1,0 +1,7 @@
+production:
+  a_feature:
+    enabled: false
+
+test:
+  a_feature:
+    enabled: true
