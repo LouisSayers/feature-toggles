@@ -4,3 +4,12 @@ test:
 
   another_feature:
     enabled: true
+
+  admin_only_feature:
+    admin:
+      enabled: true
+
+  all_but_user_feature:
+    enabled: true
+    user:
+      enabled: false
