@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = FeatureToggles::VERSION
   s.authors     = ["Louis Sayers"]
   s.email       = ["lssayers@gmail.com"]
-  s.homepage    = "https://github.com/forward-labs/feature-toggles"
+  s.homepage    = "https://github.com/LouisSayers/feature-toggles"
   s.summary     = %q{Feature Toggles for Rails}
   s.description = %q{Turn features on or off in various rails environments}
   s.license = 'MIT'
